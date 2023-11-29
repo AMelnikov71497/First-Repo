@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "OpenSans";
+    background-color: #ffff0054;
+    padding: 30px;
+}
+
+.container {
+    max-width: 1550px;
+    min-width: 320px;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ol {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+button {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.categoriesAndSort {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardsProduct {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+

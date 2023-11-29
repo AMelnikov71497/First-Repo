@@ -1,0 +1,41 @@
+.sort {
+    background-color: #d4cfcf;
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 0 15px;
+    position: relative;
+    &__sortSpanFirst {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+    &__sortSpanFirst svg  {
+        margin-right: 10px;
+    }
+    &__sortSpanSecond {
+        color: #FE5F1E;
+        font-size: 20px;
+    }
+    &__sortPopap {
+        position: absolute;
+        right: 0;
+        bottom: -140px;
+        background-color: #d4cfcf;
+    }
+    &__sortPopap li {
+        padding: 10px;
+        font-size: 20px;
+        color: #FE5F1E;
+    }
+    &__sortPopap li:hover {
+        background-color: #282828;
+        transition: background-color .3s ease-in-out;
+    }
+}
+
+.active {
+    background-color: #282828;
+}

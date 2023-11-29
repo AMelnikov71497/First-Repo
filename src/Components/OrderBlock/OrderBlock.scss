@@ -1,0 +1,30 @@
+.orderBlock {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 60%;
+    &__totalCount {
+        font-size: 25px;
+    }
+    &__price {
+        font-size: 25px;
+    }
+    &__linkLast {
+        background-color: #66665f;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+    &__payNow {
+        background-color: #FE5F1E;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+}
+
+

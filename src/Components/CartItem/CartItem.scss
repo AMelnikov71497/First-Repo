@@ -1,0 +1,56 @@
+.cartItem {
+    width: 60%;
+    background-color: #f6eac1;
+    margin-bottom: 20px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    &__blockImg {
+        width: 15%;
+    }
+    &__img {
+        width: 100%;
+    }
+    &__title,
+    &__type,
+    &__price {
+        font-size: 25px;
+    }
+    &__btnDelete {
+        background-color: #FE5F1E;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: white;
+    }
+    &__btnMinusItem {
+        font-size: 30px;
+        padding: 0 12px;
+        background-color: red;
+        border-radius: 50%;
+    }
+    &__btnPlusItem {
+        font-size: 30px;
+        padding: 0 8px;
+        background-color: green;
+        border-radius: 50%;
+    }
+    &__spanCount {
+        font-size: 25px;
+    }
+    &__blockCount {
+        width: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+

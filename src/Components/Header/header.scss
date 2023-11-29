@@ -1,0 +1,79 @@
+.header {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__headerBlockLogo {
+        width: 250px;
+    }
+    &__headerLogo {
+        display: flex;
+    }
+    &__logo {
+        width: 70px;
+    }
+    &__logoText {
+        font-size: 25px;
+        font-weight: 700;
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+    &__headerBasket {
+        width: 150px;
+        background-color: #FE5F1E;
+        border-radius: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        font-size: 18px;
+        height: 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__headerBasket:focus {
+        transform: scale(.9);
+        transition: transform .3 ease-in-out;
+    }
+    &__basketBlockIcons {
+        width: 50%;
+        height: 80%;
+        border-left: 1px solid #fff;
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+        padding-left: 10px;
+        justify-content: space-between;
+    }
+    &__blockInputSearch {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        padding: 20px;
+    }
+    &__inputSearch {
+        width: 90%;
+        height: 56px;
+        font-size: 18px;
+        padding: 5px;
+    }
+    &__btnSearchClose {
+        width: 50px;
+        background-color: #d4cfcf;
+    }
+    &__btnSearchClose img {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

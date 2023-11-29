@@ -1,0 +1,23 @@
+.categoriesList {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoriesList li {
+    padding: 15px;
+    color: #d4cfcf;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.categoriesList li:hover {
+    background-color: #d4cfcf;
+    color: white;
+    transition: background-color .3s ease-in-out;
+}
+
+.active {
+    background-color: #282828;
+}
